@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3635364C208047D000BE0045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635364B208047D000BE0045 /* AppDelegate.m */; };
+		3635364F208047D000BE0045 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3635364E208047D000BE0045 /* ViewController.m */; };
+		36353652208047D000BE0045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36353650208047D000BE0045 /* Main.storyboard */; };
+		36353654208047D200BE0045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36353653208047D200BE0045 /* Assets.xcassets */; };
+		36353657208047D200BE0045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36353655208047D200BE0045 /* LaunchScreen.storyboard */; };
+		3635365A208047D200BE0045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36353659208047D200BE0045 /* main.m */; };
+		366BA3E520861C7E00429256 /* HXTYRZManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 366BA3E120861C7E00429256 /* HXTYRZManager.m */; };
+		366BA3E620861C7E00429256 /* TYRZSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366BA3E220861C7E00429256 /* TYRZSDK.framework */; };
+		DE76DBBB208B3A1F008C6C52 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE76DBBA208B3A1F008C6C52 /* Resource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36353647208047D000BE0045 /* TYRZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYRZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3635364A208047D000BE0045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3635364B208047D000BE0045 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3635364D208047D000BE0045 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3635364E208047D000BE0045 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36353651208047D000BE0045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36353653208047D200BE0045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36353656208047D200BE0045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36353658208047D200BE0045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36353659208047D200BE0045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		366BA3E120861C7E00429256 /* HXTYRZManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTYRZManager.m; sourceTree = "<group>"; };
+		366BA3E220861C7E00429256 /* TYRZSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TYRZSDK.framework; sourceTree = "<group>"; };
+		366BA3E320861C7E00429256 /* HXTYRZManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTYRZManager.h; sourceTree = "<group>"; };
+		366BA3E420861C7E00429256 /* HXTYRZConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTYRZConst.h; sourceTree = "<group>"; };
+		DE76DBBA208B3A1F008C6C52 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Resource.bundle; path = TYRZSDK.framework/Resource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36353644208047D000BE0045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366BA3E620861C7E00429256 /* TYRZSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3635363E208047D000BE0045 = {
+			isa = PBXGroup;
+			children = (
+				36353649208047D000BE0045 /* TYRZ */,
+				36353648208047D000BE0045 /* Products */,
+				363536602080497C00BE0045 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36353648208047D000BE0045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36353647208047D000BE0045 /* TYRZ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36353649208047D000BE0045 /* TYRZ */ = {
+			isa = PBXGroup;
+			children = (
+				3635364A208047D000BE0045 /* AppDelegate.h */,
+				3635364B208047D000BE0045 /* AppDelegate.m */,
+				3635364D208047D000BE0045 /* ViewController.h */,
+				3635364E208047D000BE0045 /* ViewController.m */,
+				366BA3E020861C7E00429256 /* TYRZSDK */,
+				36353650208047D000BE0045 /* Main.storyboard */,
+				36353653208047D200BE0045 /* Assets.xcassets */,
+				36353655208047D200BE0045 /* LaunchScreen.storyboard */,
+				36353658208047D200BE0045 /* Info.plist */,
+				36353659208047D200BE0045 /* main.m */,
+			);
+			path = TYRZ;
+			sourceTree = "<group>";
+		};
+		363536602080497C00BE0045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		366BA3E020861C7E00429256 /* TYRZSDK */ = {
+			isa = PBXGroup;
+			children = (
+				366BA3E420861C7E00429256 /* HXTYRZConst.h */,
+				366BA3E320861C7E00429256 /* HXTYRZManager.h */,
+				366BA3E120861C7E00429256 /* HXTYRZManager.m */,
+				DE76DBBA208B3A1F008C6C52 /* Resource.bundle */,
+				366BA3E220861C7E00429256 /* TYRZSDK.framework */,
+			);
+			path = TYRZSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36353646208047D000BE0045 /* TYRZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3635365D208047D200BE0045 /* Build configuration list for PBXNativeTarget "TYRZ" */;
+			buildPhases = (
+				36353643208047D000BE0045 /* Sources */,
+				36353644208047D000BE0045 /* Frameworks */,
+				36353645208047D000BE0045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYRZ;
+			productName = TYRZ;
+			productReference = 36353647208047D000BE0045 /* TYRZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3635363F208047D000BE0045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = YuQi;
+				TargetAttributes = {
+					36353646208047D000BE0045 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 36353642208047D000BE0045 /* Build configuration list for PBXProject "TYRZ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3635363E208047D000BE0045;
+			productRefGroup = 36353648208047D000BE0045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36353646208047D000BE0045 /* TYRZ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36353645208047D000BE0045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36353657208047D200BE0045 /* LaunchScreen.storyboard in Resources */,
+				36353654208047D200BE0045 /* Assets.xcassets in Resources */,
+				36353652208047D000BE0045 /* Main.storyboard in Resources */,
+				DE76DBBB208B3A1F008C6C52 /* Resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36353643208047D000BE0045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3635364F208047D000BE0045 /* ViewController.m in Sources */,
+				3635365A208047D200BE0045 /* main.m in Sources */,
+				366BA3E520861C7E00429256 /* HXTYRZManager.m in Sources */,
+				3635364C208047D000BE0045 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36353650208047D000BE0045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36353651208047D000BE0045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36353655208047D200BE0045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36353656208047D200BE0045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3635365B208047D200BE0045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3635365C208047D200BE0045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3635365E208047D200BE0045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ERG8W536UD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TYRZ/TYRZSDK",
+				);
+				INFOPLIST_FILE = TYRZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.TestUMCOpen1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3635365F208047D200BE0045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ERG8W536UD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TYRZ/TYRZSDK",
+				);
+				INFOPLIST_FILE = TYRZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.TestUMCOpen1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36353642208047D000BE0045 /* Build configuration list for PBXProject "TYRZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3635365B208047D200BE0045 /* Debug */,
+				3635365C208047D200BE0045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3635365D208047D200BE0045 /* Build configuration list for PBXNativeTarget "TYRZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3635365E208047D200BE0045 /* Debug */,
+				3635365F208047D200BE0045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3635363F208047D000BE0045 /* Project object */;
+}
